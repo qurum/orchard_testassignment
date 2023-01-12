@@ -1,0 +1,25 @@
+{
+  "description": "orchard - test assignment",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ronia",
+      "email": "qurum@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ramsey/uuid": "^4.7",
+    "php-di/php-di": "^6.4"
+  },
+  "autoload": {
+    "psr-4": { "Orchard\\": "src/" }
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.9",
+    "squizlabs/php_codesniffer": "^3.7",
+    "phpunit/phpunit": "^9.5",
+    "saggre/phpdocumentor-markdown": "^0.1.3"
+  }
+}

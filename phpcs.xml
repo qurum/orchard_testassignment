@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ruleset name="Test Assignment PHPCS" namespace="Orchard\CS\Standard">
+    <file>./src</file>
+    <file>./tests</file>
+    <file>./main.php</file>
+    <file>./container.php</file>
+    <rule ref="PSR12"/>
+</ruleset>
