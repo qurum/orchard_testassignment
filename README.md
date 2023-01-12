@@ -19,6 +19,7 @@ Harvester умеет обрабатывать Orchard, собирая все ф�
 
 Точка входа ([main.php](main.php)): 
 ```bash
+composer install
 php main.php
 ```
 
